@@ -1,0 +1,15 @@
+.container{
+    display: flex;
+    max-width: 1200px;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+img{
+    width: 200px;
+    height:150px ;
+    object-fit: cover;
+    padding: 5px;
+    
+}

@@ -1,0 +1,104 @@
+*{
+    padding: 0;
+    scroll-behavior: smooth;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.banner{
+    background-image: url(../img/sky.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header{
+padding-top: 2%;
+margin-left: 8%;
+margin-right: 8%;
+display: flex;
+justify-content: space-between;
+}
+
+.header p{
+    color: white;
+}
+nav ul{
+    display: flex;
+}
+nav ul li{
+    list-style: none;
+    color: white;
+}
+nav ul li a{
+    padding-right: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+.content{
+    justify-content: space-between;
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 15%;
+}
+.content-image img{
+    padding-left: 60px;
+    height: 100px;
+}
+.aboutus{
+    margin-left:12% ;
+    margin-right: 12%;
+    margin-top: 8px;
+display: flex;    
+}
+
+.aboutus img{
+    height: 200px;
+}
+.aboutcontent{
+    padding-left: 2%;
+}
+
+.gallery{
+    justify-content: center;
+    /* width: 100%; */
+    margin-left:12% ;
+    margin-right: 12%;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.gallery img{
+
+    padding: 5px;
+    border-radius: 5px;
+    height: 100px;
+}
+
+footer{
+    padding-top: 5px;
+    background-color: crimson;
+    padding-left:12% ;
+    padding-right: 12%;
+    display: flex;
+    justify-content: space-between;
+}
+.first{
+    width: 33%;
+    display: flex;
+}
+
+.imagefooter img{
+    height: 100px;
+    width: 50px;
+}
+ul li{
+    list-style: none;
+}
+a{
+color: white;
+    text-decoration: none;
+}

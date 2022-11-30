@@ -1,0 +1,6 @@
+.bg{
+    background-image: radial-gradient(red, yellow, green);
+    background-image: conic-gradient(red, yellow, green);
+    background: linear-gradient(to right, red , yellow);
+    transform: scale(0.5)
+}

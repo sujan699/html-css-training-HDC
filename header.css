@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    /* flex-direction: column; */
+/* background: url('../img/main-img.png'); */
+/* height: 100vh; */
+    background-color: tomato;
+}
+header p{
+    color: rgb(0, 0, 0);
+}
+header a{
+    text-decoration: none;
+    color: aliceblue;
+}
+li{
+    list-style: none;
+}
+ ul {
+    text-align: center;
+   
+    display: flex;
+}
+ul li{
+    padding-right: 30px;
+}
+
+
+

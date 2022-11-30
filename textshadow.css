@@ -1,0 +1,14 @@
+.textcustom{
+    text-shadow: 2px 2px 5px red;
+}
+div {
+    box-shadow: 10px 10px 5px lightblue;
+  }
+
+  img {
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+    object-fit: contain;
+    object-fit: fill;
+  }
